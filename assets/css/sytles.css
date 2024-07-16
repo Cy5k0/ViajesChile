@@ -95,9 +95,22 @@ footer {
     
 }
 
-#brand-footer-text {
-    font-family: "Permanent Marker", cursive; ;
+
+.d-grid {
+    padding-left: 25%;
+    padding-right: 25%;
 }
+
+
+#brand-footer-text {
+    font-family: "Permanent Marker";
+    padding-left: 15%;
+    }
+
+#rrss-ico {
+    padding-right: 15%;
+}   
+
 
 /*smooth scroll*/
 

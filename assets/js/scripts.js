@@ -1,3 +1,6 @@
+
+// oculta los textos de las cards al evento click sobre los ico
+
 $(document).ready(function () {
 
     $('.ico.text-center.mb-3').on('click', function() {
@@ -10,3 +13,5 @@ $(document).ready(function () {
 
 
 });
+
+
