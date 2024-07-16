@@ -119,10 +119,10 @@ html {
   }
 
 
-/*al pasar el mouse sobre los favico*/
+/*al pasar el mouse sobre los favico de "quienes somos"*/
 .ico.text-center.mb-3 {
     cursor: pointer;
-}
+    }
 
 .ico.text-center.mt-auto {
     cursor: pointer;
