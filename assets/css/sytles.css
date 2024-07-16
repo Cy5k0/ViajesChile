@@ -1,0 +1,84 @@
+/*Navbar Transparente*/
+.navbar{
+    background-color: transparent;
+    border: none;
+    }
+
+    /* texto navbar en blanco*/
+    .navbar-brand {
+        color:white;
+    }
+    
+    .nav-link {
+        color: white;
+    }
+
+ /* ajuste del tamaño del icono en navbar*/
+
+ .navbar-brand img{
+    width: 25px;
+    height: 25px;
+ 
+ }
+
+ /*color de fondo*/
+
+body {
+    background-color: black;
+}
+/*textos en color blanco*/
+
+.ico {
+    background-color: rgb(0, 129, 129);
+    color:white;
+    text-align: center;
+}
+
+p {
+    color:white;
+}
+
+h3 {
+    color:white;
+    text-align:center;
+    padding-top:3%;
+    padding-bottom:1%;
+}
+
+
+/*Separador*/
+hr {
+    border-color: whitesmoke;
+    align-items: center ;
+}
+
+#separador {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+/* colores de las cards*/
+
+.card-body {
+    background-color:rgb(0, 129, 129) ;
+    
+}
+
+.card.h-100 {
+    background-color: black;
+}
+
+/*contacto*/
+.form-label {
+    color:white;
+}
+
+
+/*detalles footer*/
+footer {
+    color:white;
+    background-color:rgb(0, 129, 129) ;
+    
+}
