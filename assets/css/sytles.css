@@ -7,6 +7,7 @@
     /* texto navbar en blanco*/
     .navbar-brand {
         color:white;
+        font-family: "Permanent Marker", cursive;
     }
     
     .nav-link {
@@ -26,12 +27,18 @@
 body {
     background-color: black;
 }
-/*textos en color blanco*/
+/*textos en color blanco y section quienes somos*/
 
 .ico {
     background-color: rgb(0, 129, 129);
     color:white;
     text-align: center;
+}
+.card-text_1 {
+    background-color: black;
+}
+.card-body_1 {
+    background-color: black;
 }
 
 p {
@@ -43,6 +50,10 @@ h3 {
     text-align:center;
     padding-top:3%;
     padding-bottom:1%;
+}
+
+.card-body_1.d-flex.flex-column {
+    padding-bottom: 16px;
 }
 
 
@@ -76,9 +87,30 @@ hr {
 }
 
 
+
 /*detalles footer*/
 footer {
     color:white;
     background-color:rgb(0, 129, 129) ;
     
+}
+
+#brand-footer-text {
+    font-family: "Permanent Marker", cursive; ;
+}
+
+/*smooth scroll*/
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/*al pasar el mouse sobre los favico*/
+.ico.text-center.mb-3 {
+    cursor: pointer;
+}
+
+.ico.text-center.mt-auto {
+    cursor: pointer;
 }
